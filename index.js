@@ -50,4 +50,11 @@ client.on(Events.InteractionCreate, async interaction => {
     }
 });
 
+
+// add default role to a user when they join the server
+client.on('guildMemberAdd', guildMember => {
+    guildMember.roles.add('1304518454107177081');
+    console.log('Default role added to: ' + guildMember.user.username);
+});
+
 client.login(token);
