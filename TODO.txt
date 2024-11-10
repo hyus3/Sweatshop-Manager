@@ -1,0 +1,18 @@
+TODO:
+    /apply - user registration, role change
+    /create event - event creation for the server
+    /volunteer - update message/list with the user who interacts/react with the message
+
+        :message:
+        react ':>' to this message to receive water.
+
+        ->user1 reacted with ':>'
+
+        :message:
+        reactors:
+        1. user1
+
+        react ':>' to this message to receive water.
+
+
+

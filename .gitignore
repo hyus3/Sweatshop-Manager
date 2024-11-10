@@ -1,0 +1,4 @@
+### TO BE IGNORED WHEN PUSHING TO REPO ###
+config.json
+node_modules
+.env
